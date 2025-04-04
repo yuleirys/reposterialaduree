@@ -1,0 +1,61 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   margin: 0;
+   padding: 0;
+}
+
+header{
+    background-color: rgb(255, 0, 106);
+    color: aliceblue;
+    padding: 10px ;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #f8f8f8;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.producto{
+    border: 1px solid rgb(245, 214, 220);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    flex: 20px;
+    box-sizing: border-box;
+}
+
+.producto img{
+    max-width: 100%;
+    height: auto;
+}
+
+footer{
+    background-color: crimson;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
